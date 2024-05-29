@@ -1,0 +1,97 @@
+body {
+    /* Color de fondo de la pagina */
+    /* background-color: rgb(99, 16, 45) */
+    /* background: linear-gradient(#f0ead2,#dde5b6,#adc178); */
+    /* background: radial-gradient(#f0ead2,#dde5b6,#adc178); */
+    background: radial-gradient(#dbaef0,#d4a3da,#adc178);
+    /* Cambiar tamaño de letra */
+    font-size: 100%;
+}
+h1{
+    color: #a98467;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+h3{
+    color: black;
+    /* Enlace de pag Fronts Google - para cambio de letra */
+    font-family: "Dosis", sans-serif;
+    font-style: italic;
+}
+
+#imgPortada {
+    /* CAMBIAR EL TAMAÑO DE LAS IMAGENES */
+    /* height - indica la altura  */
+    height: 5%;
+    /* width - indica la anchura  <-> */
+    /* width: 1000px; */
+}
+
+/* Para modificar CSS de un elemento en particular HTML, asignamos una clase (class)  y esa la "llamamos" en el CSS con un punto ( . ) antes del nombre de la clase*/
+
+/* Editar div del indice */
+.indice{
+    /* Div flexible para moverse con los elementos dentro de sí */
+    display: flex;
+    /* flex-direction: column - En columna (row - row-reverse - etc) */
+    flex-direction: column;
+    /* align-items  - alinear verticalmente (en este caso de forma centrada) */
+    align-items: center;
+}
+
+/* Anclas del indice */
+a{
+    background-color: #a98467;
+    /* color de texto */
+    color: rgb(42, 41, 41);
+    /* viñetas - linea debajo del ancla*/
+    text-decoration: none;
+    /* padding - Margen interno del elemento */
+    /* 5px 10px - (valor vertical) (valor horizontal) */
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+/* Cambia el color del elemento si el cursor esta sobre este */
+a:hover{
+    background-color: #d4a3da;
+    color: white;
+}
+
+.imgPortada{
+    display: flex;
+    align-items: center;
+    /* centrar mi imagen */
+    justify-content: center;
+}
+
+
+#img1{
+    height: 400px;
+    align-content: center;
+}
+#imgCursos{
+    /* border-radius - Bordea las esquinas o si el valor es 100% se convierte en un circulo*/
+    border-radius: 5px;
+    height: 400px;
+    /* align-content: center; */
+}
+
+.img2{
+    height: 400px;
+    border-radius: 5px;
+}
+
+.contenedor1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.iconoPestaña{
+    width: 25%;
+    /* margin-right (margen de un lado, el derecho para hacer espacio) */
+    margin-right: 100px;
+}
